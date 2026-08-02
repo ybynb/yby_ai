@@ -1,0 +1,32 @@
+# AI
+langchain4j:
+  open-ai:
+    chat-model:
+      # 阿里云百炼的 OpenAI 兼容网关地址
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      # 您的阿里云 API Key（从控制台获取）
+      api-key: sk-4a0c362daae4466494c94d90d85c0afe
+      # 模型名称，例如 qwen-max、qwen-plus、qwen-turbo 等
+      model-name: qwen3.7-plus
+      # 可选：开启请求/响应日志便于调试
+      log-requests: true
+      log-responses: true
+      # 可选：超时时间
+      timeout: 600s
+      # 可选：最大重试次数
+      max-retries: 3
+      # 可选：最大生成 tokens 数
+      max-tokens: 16384
+      # 可选：是否严格检查 JSON 响应
+      strict-json-schema: true
+      response-format: json_object
+    streaming-chat-model:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api-key: sk-4a0c362daae4466494c94d90d85c0afe
+      model-name: qwen3.7-flash
+      max-tokens: 8192
+      log-requests: true
+      log-responses: true
+
+
+

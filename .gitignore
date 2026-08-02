@@ -1,8 +1,13 @@
 ELP.md
 target/
+tmp
+.idea
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+### CUSTOM ###
+application-local.yml
 
 ### STS ###
 .apt_generated

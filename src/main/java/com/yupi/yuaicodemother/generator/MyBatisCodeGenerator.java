@@ -8,6 +8,9 @@ import com.zaxxer.hikari.HikariDataSource;
 
 import java.util.Map;
 
+/**
+ * Mybatis Flex 代码生成器
+ */
 public class MyBatisCodeGenerator {
 
     // 需要生成的表名
@@ -69,7 +72,7 @@ public class MyBatisCodeGenerator {
 
         // 设置生成时间和字符串为空，避免多余的代码改动
         globalConfig.getJavadocConfig()
-                .setAuthor("<a href=\"https://github.com/liyupi\">程序员鱼皮</a>")
+                .setAuthor("<a href=\"https://github.com/ybynb\">yby</a>")
                 .setSince("");
         return globalConfig;
     }
