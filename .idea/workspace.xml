@@ -5,104 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="301492c8-4fef-462c-98ea-b266b7d0b7a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/ai/AiCodeGeneratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/ai/AiCodeGeneratorServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/ai/model/HtmlCodeResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/ai/model/MultiFileResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/annotation/AuthCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/aop/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/constant/UserConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/CodeFileSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/CodeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/user/UserAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/user/UserLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/user/UserQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/user/UserRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/user/UserUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/enums/CodeGenTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/enums/UserRoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/vo/user/LoginUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/vo/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/parser/CodeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/parser/CodeParserExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/parser/HtmlCodeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/parser/MultiFileCodeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/HtmlCodeFileSaverTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/MultiFileCodeSaverTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/code-quality-check-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/codegen-html-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/codegen-multi-file-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/codegen-routing-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/codegen-vue-project-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/image-collection-plan-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/image-collection-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/AiCodeGeneratorFacadeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/AiCodeGeneratorServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/CodeParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/YuAiCodeMotherApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/ai/AiCodeGeneratorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/ai/AiCodeGeneratorServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/annotation/AuthCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/aop/AuthInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/common/BaseResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/common/DeleteRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/common/PageRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/common/ResultUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/config/CorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/constant/UserConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/controller/HealthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/exception/BusinessException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/exception/ErrorCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/exception/ThrowUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/generator/MyBatisCodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/dto/user/UserAddRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/dto/user/UserLoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/dto/user/UserQueryRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/dto/user/UserRegisterRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/dto/user/UserUpdateRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/entity/User$UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/enums/UserRoleEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/vo/user/LoginUserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/vo/user/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/code-quality-check-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/codegen-html-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/codegen-multi-file-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/codegen-routing-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/codegen-vue-project-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/image-collection-plan-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/prompt/image-collection-system-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yupi/yuaicodemother/AiCodeGeneratorServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yupi/yuaicodemother/YuAiCodeMotherApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/constant/AppConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/controller/StaticResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/mapper/AppMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/app/AppAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/app/AppAdminUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/app/AppDeployRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/app/AppQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/dto/app/AppUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/entity/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/model/vo/app/AppVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/service/AppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/service/impl/AppServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AppMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/ai/model/HtmlCodeResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/ai/model/MultiFileResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/core/CodeFileSaver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/core/CodeParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/model/enums/CodeGenTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/parser/CodeParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/parser/CodeParserExecutor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/parser/CodeParserExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/parser/HtmlCodeParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/parser/MultiFileCodeParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/saver/CodeFileSaverTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/saver/HtmlCodeFileSaverTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/saver/MultiFileCodeSaverTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yupi/yuaicodemother/AiCodeGeneratorFacadeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yupi/yuaicodemother/CodeParserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083365916099768320/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083365916099768320/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083365916099768320/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449039433007104/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449039433007104/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449039433007104/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449807162699776/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449807162699776/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083449807162699776/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083480342526164992/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083480342526164992/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/code_output/multi_file_2083480342526164992/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yu-ai-code-mother.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/generator/MyBatisCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/generator/MyBatisCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/AiCodeGeneratorFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/AiCodeGeneratorFacadeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/generator/MyBatisCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yupi/yuaicodemother/generator/MyBatisCodeGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,55 +119,70 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MyBatisCodeGenerator.executor": "Run",
-    "JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCode.executor": "Run",
-    "JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCodeStream.executor": "Debug",
-    "JUnit.AiCodeGeneratorServiceTest.executor": "Debug",
-    "JUnit.AiCodeGeneratorServiceTest.generateHtmlCode.executor": "Run",
-    "JUnit.AiCodeGeneratorServiceTest.generateMultiFileCode.executor": "Debug",
-    "JUnit.CodeParserTest.parseHtmlCode.executor": "Run",
-    "JUnit.CodeParserTest.parseMultiFileCode.executor": "Debug",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.YuAiCodeMotherApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/study/springboot-study/yu-ai-code-mother/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.sections.ProjectViewSettingsSectionConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MyBatisCodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCode.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCodeStream.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.AiCodeGeneratorServiceTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.AiCodeGeneratorServiceTest.generateHtmlCode.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AiCodeGeneratorServiceTest.generateMultiFileCode.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CodeParserTest.parseHtmlCode.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CodeParserTest.parseMultiFileCode.executor&quot;: &quot;Debug&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.YuAiCodeMotherApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study/springboot-study/yu-ai-code-mother/src/main/java/com/yupi/yuaicodemother/model/dto/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.sections.ProjectViewSettingsSectionConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\springboot-study\yu-ai-code-mother\src\main\java\com\yupi\yuaicodemother\model\dto\app" />
       <recent name="D:\study\springboot-study\yu-ai-code-mother\src\main\resources" />
       <recent name="D:\study\springboot-study\yu-ai-code-mother\src\main\resources\prompt" />
       <recent name="D:\study\springboot-study\yu-ai-code-mother\src\main\java\com\yupi\yuaicodemother" />
       <recent name="D:\study\springboot-study\yu-ai-code-mother" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yupi.yuaicodemother.controller" />
+      <recent name="com.yupi.yuaicodemother.model.vo.app" />
+      <recent name="com.yupi.yuaicodemother.service.impl" />
+      <recent name="com.yupi.yuaicodemother.service" />
       <recent name="com.yupi.yuaicodemother.saver" />
-      <recent name="com.yupi.yuaicodemother.parser" />
-      <recent name="com.yupi.yuaicodemother.ai.model" />
-      <recent name="com.yupi.yuaicodemother.model.dto.user" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCode">
+  <component name="RunManager" selected="Application.MyBatisCodeGenerator">
+    <configuration name="MyBatisCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yupi.yuaicodemother.generator.MyBatisCodeGenerator" />
+      <module name="yu-ai-code-mother" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yupi.yuaicodemother.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AiCodeGeneratorFacadeTest.generateAndSaveCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yu-ai-code-mother" />
       <extension name="coverage">
@@ -236,22 +210,6 @@
       <option name="PACKAGE_NAME" value="com.yupi.yuaicodemother" />
       <option name="MAIN_CLASS_NAME" value="com.yupi.yuaicodemother.AiCodeGeneratorFacadeTest" />
       <option name="METHOD_NAME" value="generateAndSaveCodeStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AiCodeGeneratorServiceTest.generateHtmlCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yu-ai-code-mother" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yupi.yuaicodemother.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yupi.yuaicodemother" />
-      <option name="MAIN_CLASS_NAME" value="com.yupi.yuaicodemother.AiCodeGeneratorServiceTest" />
-      <option name="METHOD_NAME" value="generateHtmlCode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyBatisCodeGenerator" />
         <item itemvalue="JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCode" />
         <item itemvalue="JUnit.AiCodeGeneratorFacadeTest.generateAndSaveCodeStream" />
         <item itemvalue="JUnit.CodeParserTest.parseMultiFileCode" />
         <item itemvalue="JUnit.CodeParserTest.parseHtmlCode" />
-        <item itemvalue="JUnit.AiCodeGeneratorServiceTest.generateHtmlCode" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +284,8 @@
       <workItem from="1785305775348" duration="431000" />
       <workItem from="1785307428381" duration="15072000" />
       <workItem from="1785467450254" duration="2060000" />
-      <workItem from="1785485331842" duration="15618000" />
+      <workItem from="1785485331842" duration="23774000" />
+      <workItem from="1785722356197" duration="7383000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块">
       <option name="closed" value="true" />
@@ -336,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785376944619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AI生成模块">
+      <option name="closed" value="true" />
+      <created>1785638582058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785638582058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +312,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="用户模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户模块" />
+    <MESSAGE value="AI生成模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI生成模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,21 +322,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/yupi/yuaicodemother/CodeParserTest.java</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/core/AiCodeGeneratorFacade.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverExecutor.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/yupi/yuaicodemother/saver/CodeFileSaverTemplate.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

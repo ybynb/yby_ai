@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务记录 - TaskFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== 导航栏 ========== -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <span class="logo-icon">📋</span>
+                <h1>TaskFlow</h1>
+            </div>
+            <p class="nav-subtitle">你的个人任务管理中心</p>
+        </div>
+    </nav>
+
+    <!-- ========== 主内容区 ========== -->
+    <main class="main-container">
+        <!-- 统计卡片 -->
+        <section class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-number" id="totalTasks">0</div>
+                <div class="stat-label">全部任务</div>
+            </div>
+            <div class="stat-card stat-pending">
+                <div class="stat-number" id="pendingTasks">0</div>
+                <div class="stat-label">待完成</div>
+            </div>
+            <div class="stat-card stat-progress">
+                <div class="stat-number" id="progressTasks">0</div>
+                <div class="stat-label">进行中</div>
+            </div>
+            <div class="stat-card stat-done">
+                <div class="stat-number" id="completedTasks">0</div>
+                <div class="stat-label">已完成</div>
+            </div>
+        </section>
+
+        <!-- 进度条 -->
+        <section class="progress-section">
+            <div class="progress-header">
+                <span>总体进度</span>
+                <span class="progress-percent" id="progressPercent">0%</span>
+            </div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progressBarFill"></div>
+            </div>
+        </section>
+
+        <!-- 添加任务区域 -->
+        <section class="add-task-section">
+            <h2 class="section-title">➕ 添加新任务</h2>
+            <form class="add-task-form" id="addTaskForm">
+                <div class="form-row">
+                    <input 
+                        type="text" 
+                        class="form-input" 
+                        id="taskTitle" 
+                        placeholder="任务名称 *" 
+                        required
+                        autocomplete="off"
+                    >
+                </div>
+                <div class="form-row">
+                    <textarea 
+                        class="form-input form-textarea" 
+                        id="taskDesc" 
+                        placeholder="任务描述（可选）"
+                        rows="2"
+                    ></textarea>
+                </div>
+                <div class="form-row form-row-inline">
+                    <select class="form-select" id="taskCategory">
+                        <option value="general">📌 普通</option>
+                        <option value="work">💼 工作</option>
+                        <option value="study">📚 学习</option>
+                        <option value="life">🏠 生活</option>
+                        <option value="exercise">🏃 运动</option>
+                    </select>
+                    <select class="form-select" id="taskPriority">
+                        <option value="low">🟢 低优先级</option>
+                        <option value="medium">🟡 中优先级</option>
+                        <option value="high">🔴 高优先级</option>
+                    </select>
+                    <select class="form-select" id="taskStatus">
+                        <option value="todo">⏳ 待办</option>
+                        <option value="doing">🔄 进行中</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary" id="addBtn">
+                        <span>添加</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- 筛选与搜索栏 -->
+        <section class="filter-section">
+            <div class="filter-left">
+                <h2 class="section-title section-title-sm">📝 我的任务</h2>
+                <span class="task-count" id="filteredCount">共 0 个任务</span>
+            </div>
+            <div class="filter-right">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        id="searchInput" 
+                        placeholder="搜索任务..."
+                    >
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="todo">待办</button>
+                    <button class="filter-btn" data-filter="doing">进行中</button>
+                    <button class="filter-btn" data-filter="done">已完成</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 任务列表 -->
+        <section class="task-list-section" id="taskListContainer">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">✨</div>
+                <h3>暂无任务</h3>
+                <p>在上方表单中添加你的第一个任务吧！</p>
+            </div>
+            <ul class="task-list" id="taskList">
+                <!-- 动态生成任务项 -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- ========== 底部 ========== -->
+    <footer class="footer">
+        <p>© 2024 TaskFlow — 让每个任务都有迹可循</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

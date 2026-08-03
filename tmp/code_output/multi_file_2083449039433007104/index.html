@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务记录中心 | TaskLog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <span class="logo-icon">📋</span>
+                <h1>任务记录中心</h1>
+            </div>
+            <nav class="filter-nav" aria-label="任务状态筛选">
+                <button class="filter-btn active" data-filter="all">全部任务</button>
+                <button class="filter-btn" data-filter="pending">待办</button>
+                <button class="filter-btn" data-filter="in-progress">进行中</button>
+                <button class="filter-btn" data-filter="completed">已完成</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="input-section">
+            <h2>创建新任务</h2>
+            <form id="taskForm" novalidate>
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="taskTitle">任务标题 <span class="required">*</span></label>
+                        <input type="text" id="taskTitle" required placeholder="例如：完成前端页面重构..." maxlength="50">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="taskDesc">详细描述</label>
+                        <textarea id="taskDesc" rows="3" placeholder="补充任务细节、链接或备注信息..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="taskDate">截止日期 <span class="required">*</span></label>
+                        <input type="date" id="taskDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="taskPriority">优先级</label>
+                        <select id="taskPriority">
+                            <option value="low">🟢 低优先级</option>
+                            <option value="medium" selected>🟡 中优先级</option>
+                            <option value="high">🔴 高优先级</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="reset" class="btn-secondary">清空表单</button>
+                    <button type="submit" class="btn-primary">保存任务</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <div class="list-header">
+                <h2>任务看板</h2>
+                <span id="taskCount" class="count-badge">共 0 项</span>
+            </div>
+            <div id="taskContainer" class="task-grid">
+                <!-- 任务卡片将通过 JS 动态渲染 -->
+            </div>
+            <div id="emptyState" class="empty-state hidden">
+                <div class="empty-icon">📭</div>
+                <p>当前没有匹配的任务，试试调整筛选条件或添加新任务吧！</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2023 任务记录中心. 数据仅保存在本地浏览器中。</p>
+            <p class="tech-note">Built with vanilla HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

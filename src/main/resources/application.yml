@@ -9,7 +9,11 @@ spring:
     password: 1234
   profiles:
     active: local
-
+#  # Session 配置
+#  session:
+#    store-type: redis
+#    # session 30 天后过期
+#    timeout: 2592000
 server:
   port: 8123
   servlet:
